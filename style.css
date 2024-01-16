@@ -321,11 +321,215 @@ height: 18.75rem;
     width: 42.0625rem;
 height: 18.75rem;
 }
+/* card section */
+.Choose-Us-titel {
+    text-align: center;
+}
+.Choose-Us-titel h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.Choose-Us-titel p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+.card-one-items {
+    display: flex;
+}
+.card-items1 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.card-items1 img {
+    width: 64px;
+    height: 64px;
+}
+.card-items1 h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: normal;
+}
+.card-items2 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.card-items2 img {
+    width: 64px;
+    height: 64px;
+}
+.card-items2 h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: normal;
+}
+.card-items3 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: auto;
+}
+.card-items3 img {
+    width: 64px;
+    height: 64px;
+}
+.card-items3 h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* discount part start */
+.discount-header h2 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.discount-header p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: auto;
+}
+
+/* discount section */
+.satorini-2{
+    margin: 0px 0px;
+}
+.title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.author-text a {
+    text-decoration: none;
+    align-items: center;
+
+}
 
 
 
+.satorini-2 .author-text {
+    position: absolute;
+    top: 14%;
+    left: 5%;
+    width: 50%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    padding: 3rem;
+}
+.satorini-img {
+    position: relative;
+}
+.satorini-img img {
+    height: 100%;
+}
+
+.author-text {
+    position: absolute;
+    top: 14%;
+    right: 5%;
+    width: 50%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    padding: 3rem;
+}
+.author-text a > i{
+    color: var(--fourty-color);
+}
+.author-text .price{
+    color: var(--fourty-color);
+}
 
 
+
+/* footer section */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 15px;
+    margin-bottom: 0;
+    line-height: 1rem;
+}
+
+.footer-section1 {
+
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+
+}
+
+
+.footer-section1 span {
+    color: #FF5400;
+}
+
+.footer-section2 {
+   
+}
+
+.footer-section2 p {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.footer-section2 img {
+    padding-top: 1.5rem;
+    align-items: center;
+    margin-left: 500px;
+}
+
+hr {
+    width: 54.5rem;
+    height: 0.0625rem;
+    background: rgba(19, 19, 24, 0.10);
+    margin: auto;
+    margin-top: 2rem;
+    padding: 0;
+}
+
+footer h5 {
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 2rem;
+
+}
 
 
 
@@ -414,8 +618,32 @@ height: 18.75rem;
         margin: 0;
         margin-left: 70px;
     }
-    
-}
+    .Choose-Us-titel {
+        flex-direction: column;
+    }
+    .card-one-items {
+        flex-direction: column;
+    }
+    .card-items1, .card-items2, .card-items3 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer-section1 {
+        margin-left: 50px;
+        font-size: 21.543px;
+    }
+    .footer-section2 img {
+        margin-left: 150px;
+    }
+    hr {
+        width: 70%;
+    }
+    .satorini-img img {
+        width: 100%;
+    }
+    .discout {
+        display: none;
+    }
 
 
 /* tab or medium devices */

@@ -4,8 +4,8 @@
 
 *{
     font-family: 'Mulish', sans-serif;
-    margin: auto;
-    padding: 5px;
+    margin: 8px;
+    padding: 8px;
 }
 
 /* header section */
@@ -18,7 +18,7 @@
 
 .Header1 {
     display: flex;
-    gap: 2.5rem;
+    gap: 2rem;
 }
 .Header1 img {
     width: 3rem;
@@ -156,6 +156,177 @@
     margin: 20px;
 }
 
+/* main part 2 */
+
+.button-primary {
+    width: 10.875rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.section-2 {
+    display: flex;
+    margin-top: 20px;
+    gap: 1rem;
+    margin-left: 0;
+}
+
+.left-section-2 {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+.left-section-2 h2 {
+    color: #131318;
+    font-size: 2.2rem;
+    font-weight: 800;
+
+}
+
+.left-section-2 ul li {
+    margin-left: 2.1rem;
+}
+
+/* section 3 start */
+.section-3 {
+
+}
+.section3-div1 {
+    text-align: center;
+}
+.section3-div1 h2 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.section3-div1 p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.section3-div2{
+    display: flex;
+    text-align: center;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+.section3-div2 .div-2-img-1 h4 {
+    margin-top: 135px;
+}
+
+.section3-div2 .div-2-img-1 {
+    border-radius: 1rem;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 5.png), lightgray 50%;
+    background-repeat: no-repeat;
+    width: 35.8125rem;
+    height: 18.75rem;
+   padding: 0;
+}
+.section3-div2 .div-2-img-2 h4 {
+    margin-top: 125px;
+}
+.section3-div2 .div-2-img-2 {
+    border-radius: 1rem;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 8.png), lightgray 50%;
+    background-repeat: no-repeat;
+    padding: 0;
+    width: 35.8125rem;
+    height: 18.75rem;
+    
+}
+
+
+.section3-div3{
+    display: flex;
+    display: flex;
+    text-align: center;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+.section3-div3 .div-3-img-1 h4 {
+    margin-top: 125px;
+}
+
+.section3-div3 .div-3-img-1 {
+    border-radius: 1rem;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 6.png), lightgray 50%;
+    background-repeat: no-repeat;
+    padding: 0;
+    width: 23.375rem;
+    height: 17.875rem;
+}
+.section3-div3 .div-3-img-2 h4 {
+    margin-top: 125px;
+}
+.section3-div3 .div-3-img-2{
+    border-radius: 1rem;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 7.png), lightgray 50%;
+    background-repeat: no-repeat;
+    padding: 0;
+    width: 29.625rem;
+    height: 17.875rem;
+}
+.section3-div3 .div-3-img-3 h4 {
+    margin-top: 125px;
+}
+.section3-div3 .div-3-img-3{
+    border-radius: 1rem;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 9.png), lightgray 50%;
+    background-repeat: no-repeat;
+    padding: 0;
+    width: 17.125rem;
+height: 17.875rem;
+}
+
+.section3-div4 {
+    display: flex;
+    display: flex;
+    text-align: center;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+.section3-div4 .div-4-img-1 h4 {
+    margin-top: 120px;
+}
+.section3-div4 .div-4-img-1 {
+    border-radius: 1rem;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 11.png), lightgray 50%;
+    background-repeat: no-repeat;
+    padding: 0;
+    width: 29.5625rem;
+height: 18.75rem;
+}
+.section3-div4 .div-4-img-2 h4 {
+    margin-top: 120px;
+}
+.section3-div4 .div-4-img-2 {
+    border-radius: 1rem;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 10.png), lightgray 50%;
+    background-repeat: no-repeat;
+    padding: 0;
+    width: 42.0625rem;
+height: 18.75rem;
+}
+
+
+
+
+
+
 
 
 
@@ -198,6 +369,52 @@
         margin: 5px;
         padding: 5px;
     }
+
+    .section-2 {
+        flex-direction: column;
+    }
+    .section2-img img {
+        width: 100%;
+    }
+    .section3-div1 h2 {
+        font-size: 30px;
+    }
+    .section3-div1 p {
+        margin: 5px;
+    }
+    .section-3 {
+        flex-direction: column;
+    }
+    .section3-div2 {
+        flex-direction: column;
+    }
+    .section3-div3 {
+        flex-direction: column;
+    }
+    .section3-div4 {
+        flex-direction: column;
+    }
+    .section3-div2 .div-2-img-1 {
+        width: 100%;
+    }
+    .section3-div2 .div-2-img-2 {
+        width: 100%;
+    }
+    .section3-div3 .div-3-img-1 {
+        padding: 0;
+        margin: 0;
+        margin-left: 30px;
+        
+    }
+    .section3-div3 .div-3-img-2, .section3-div4 .div-4-img-1, .section3-div4 .div-4-img-2 {
+        width: 100%;
+    }
+    .section3-div3 .div-3-img-3 {
+        adding: 0;
+        margin: 0;
+        margin-left: 70px;
+    }
+    
 }
 
 

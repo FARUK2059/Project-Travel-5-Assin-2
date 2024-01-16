@@ -468,6 +468,27 @@ height: 18.75rem;
 .author-text .price{
     color: var(--fourty-color);
 }
+.Low-button5 {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 210px;
+    height: 52px;
+    border: none;
+    color: #FFF;
+    
+    margin: auto;
+}
+.Low-button5 button {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+
+
+
+
 
 /* Latter part */
 .Letter {
@@ -508,6 +529,7 @@ height: 18.75rem;
     width: 393px;
     height: 52px;
     border: none;
+    color: #FFF;
 }
 /* .he333 {
     position: relative;

@@ -469,6 +469,93 @@ height: 18.75rem;
     color: var(--fourty-color);
 }
 
+/* Latter part */
+.Letter {
+    display: flex;
+}
+
+.letter11 {
+    /* width: 1200px;
+    height: 500px; */
+    background-color: #FFF;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    margin: auto;
+    padding: 10px;
+}
+.letter11 h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.letter11 p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.letter11 .button1 {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    text-align: left;
+}
+.letter11 .button-2 {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 393px;
+    height: 52px;
+    border: none;
+}
+/* .he333 {
+    position: relative;
+    margin: 70px;
+} */
+
+.letter-img {
+    /* width: 672px;
+    height: 422px; */
+}
+
+.letter-img img {
+    position: relative;
+}
+
+.letter-img button {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 16px;
+    background: #FF5400;
+    border: none;
+    transform: rotate(-30.628deg);
+    position: relative;
+    bottom: 35%;
+    left: 55%;
+
+}
+
+.saving {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* footer section */
@@ -642,6 +729,16 @@ footer h5 {
         width: 100%;
     }
     .discout {
+        display: none;
+    }
+    .Letter {
+        flex-direction: column;
+    }
+
+    .letter-img img {
+        width: 100%;
+    }
+    .letter-img button {
         display: none;
     }
 
